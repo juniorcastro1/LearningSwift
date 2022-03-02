@@ -4,7 +4,7 @@
   return sortedStr1 == sortedStr2
 }*/
 
-//sleaker way (or rather lazy)
+//sleaker way (or rather lazy).
 //You don't need to use return if it's just a one-liner
 func twoStrings(str1: String, str2: String ) -> Bool {
   str1.sorted() == str2.sorted() 
