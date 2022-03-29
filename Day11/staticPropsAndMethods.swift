@@ -20,5 +20,5 @@ struct Employee {
     let username: String
     let password: String
 
-    static let example = Employee(username: "asdadasd", password: "aksopdasopdk")//serves as an example
+    static let example = Employee(username: "asdadasd", password: "aksopdasopdk")//serves as an example 
 }
