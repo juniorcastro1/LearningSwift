@@ -1,5 +1,5 @@
 class user  {
-    var user    name = "Anonumous"
+    var username = "Anonymous"
 
     func copy() -> User {
         let user = User()
