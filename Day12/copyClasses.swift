@@ -1,9 +1,9 @@
 class user  {
-    var username = "Anonumous"
+    var user    name = "Anonumous"
 
     func copy() -> User {
         let user = User()
-        user.username = usernamer
+        user.username = username
         return user
     }
 }
