@@ -11,6 +11,6 @@ class Car: Vehicle {
 
     init(isElectric: Bool, isConvertible: Bool) {
         self.isConvertible = isConvertible
-        super.init(isElectric)
+        super.init(isElectric: isElectric)
     }
 }

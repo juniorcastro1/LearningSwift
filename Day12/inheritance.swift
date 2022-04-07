@@ -1,7 +1,7 @@
 class Employee {
     let hours: Int
 
-    init(hours: int) {
+    init(hours: Int) {
         self.hours = hours
     }
 
