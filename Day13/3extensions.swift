@@ -30,10 +30,13 @@ struct Book {
     let pageCount: Int
     let readingHours: Int
 
-    init(title: String, pageCount: Int) {
-        self.title = title
-        self.pageCount = pageCount
-        self.readingHours= pageCount / 50
+    extension Book { //useing an extension won't deactivate the deafault initializer 
+        init(title: String, pageCount: Int) {
+            self.title = title
+            self.pageCount = pageCount
+            self.readingHours= pageCount / 50
+        }
     }
-    
 }
+
+let lotr = Book(title: "Lord of the Rings", pageCount: 1178)
