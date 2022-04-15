@@ -4,7 +4,7 @@ protocol Vehicle {
 }
 
 struct Car: Vehicle {
-    fucn estimateTime(for distance: Int) -> Int {
+    func estimateTime(for distance: Int) -> Int {
         distance/50
     }
 
@@ -18,7 +18,7 @@ struct Car: Vehicle {
 }
 
 struct Bicycle: Vehicle {
-    fucn estimateTime(for distance: Int) -> Int {
+    func estimateTime(for distance: Int) -> Int {
         distance/10
     }
 
