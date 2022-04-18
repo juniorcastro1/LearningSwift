@@ -31,7 +31,7 @@ func square(number: Int) -> Int {
 
 var number: Int? = nil
 
-if let number = number { // first number constant is a second temporary constant
+if let number = number { // first number constant  is a second temporary constant
     print(square(number: unwrappedNumber))
 }
 
